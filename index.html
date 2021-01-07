@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+
+  </head>
+
+  <body>
+    <div class="top-nav-bar">
+      <div class="search-box">
+        <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+        <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i>
+        <img class="logo"src="https://previews.123rf.com/images/arbuzu/arbuzu1501/arbuzu150100096/35628973-letter-c-logo-icon-design-template-elements.jpg" >
+        <input type="text" class="form-control">
+        <span class="input-group-text"><i class="fas fa-search"></i></span>
+      </div>
+      <div class="menu-bar">
+        <ul>
+          <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </div>
+  </div>
+
+    <section id="header">
+      <div class="side-menu" id="side-menu">
+        <ul>
+          <li>On Sale<i class="fas fa-angle-right"></i>
+            <ul>
+              <li>Sub-Menu 1</li>
+              <li>Sub-Menu 1</li>
+              <li>Sub-Menu 1</li>
+              <li>Sub-Menu 1</li>
+            </ul>
+          </li>
+          <li>Mobiles<i class="fas fa-angle-right"></i>
+            <ul>
+              <li>Sub-Menu 2</li>
+              <li>Sub-Menu 2</li>
+              <li>Sub-Menu 2</li>
+              <li>Sub-Menu 2</li>
+            </ul>
+          </li> 
+          <li>Computers<i class="fas fa-angle-right"></i>
+            <ul>
+              <li>Sub-Menu 3</li>
+              <li>Sub-Menu 3</li>
+              <li>Sub-Menu 3</li>
+              <li>Sub-Menu 3</li>
+            </ul>
+          </li>
+          <li>Books<i class="fas fa-angle-right"></i>
+            <ul>
+              <li>Sub-Menu 4</li>
+              <li>Sub-Menu 4</li>
+              <li>Sub-Menu 4</li>
+              <li>Sub-Menu 4</li>
+            </ul>
+          </li>
+          <li>Games<i class="fas fa-angle-right"></i>
+            <ul>
+              <li>Sub-Menu 5</li>
+              <li>Sub-Menu 5</li>
+              <li>Sub-Menu 5</li>
+              <li>Sub-Menu 5</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="slider">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="above" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Audio/Hdpns_Gw_1500x600._CB415716258_.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img  class="above" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/Xiaomi/Mi_days/Uber_GW/D18787601_BAU_Xiaomi_Family_DesktopHero_1500x600_2._CB413305591_.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img  class="above" src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/MusicalInstruments/MIResolution2020/1500x600_musical_resolution_2021._CB411444047_.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="featured-categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+           <img src="https://m.media-amazon.com/images/I/41NZgMzeEkL.__AC_SY200_.jpg ">
+          </div>
+          <div class="col-md-4">
+            <img src="https://m.media-amazon.com/images/I/41ImsZy3u5L.__AC_SY200_.jpg ">
+           </div>
+           <div class="col-md-4">
+            <img src="https://m.media-amazon.com/images/I/5114a8X6iHL.__AC_SY200_.jpg ">
+           </div>
+        </div>
+      </div>
+    </section>
+    <section class="on-sale">
+      <div class="container">
+        <div class="title-box">
+          <h2>On Sale</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+           <div class="product-top">
+             <img src="https://m.media-amazon.com/images/I/41-EzCThdWL._AC_SY200_.jpg">
+             <div class="overlay-right">
+               <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-heart"></i>
+              </button>
+              <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+             </div>
+           </div>
+           <div class="product-bottom ">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <h3>Peanut Butter</h3>
+             <h5>10.00$</h5>
+           </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <img src="https://m.media-amazon.com/images/I/41PPlJxZt9L.__AC_SY200_.jpg">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-heart"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-shopping-cart"></i>
+               </button>
+              </div>
+            </div>
+            <div class="product-bottom ">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Leather Shoes</h3>
+              <h5>20.00$</h5>
+            </div>
+           </div>
+           <div class="col-md-3">
+            <div class="product-top">
+              <img  src="https://m.media-amazon.com/images/I/31OCZqdW2RL._AC_SY200_.jpg">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-heart"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-shopping-cart"></i>
+               </button>
+              </div>
+            </div>
+            <div class="product-bottom ">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Thermos-Flask</h3>
+              <h5>15.00$</h5>
+            </div>
+           </div>
+           <div class="col-md-3">
+            <div class="product-top">
+              <img  src="https://m.media-amazon.com/images/I/41TXCe7NGML._AC_SY200_.jpg">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-heart"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-shopping-cart"></i>
+               </button>
+              </div>
+            </div>
+            <div class="product-bottom ">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Smart Watch</h3>
+              <h5>30.00$</h5>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-products">
+      <div class="container">
+        <div class="title-box">
+          <h2>New Arrivals</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+           <div class="product-top">
+             <img src="https://m.media-amazon.com/images/I/41piMUqDDLL.__AC_SY200_.jpg">
+             <div class="overlay-right">
+               <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-heart"></i>
+              </button>
+              <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+             </div>
+           </div>
+           <div class="product-bottom ">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <h3>Winterwear</h3>
+             <h5>20.00$</h5>
+           </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-top">
+              <img src="https://m.media-amazon.com/images/I/51wwWM-rhLL.__AC_SY200_.jpg">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-heart"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-shopping-cart"></i>
+               </button>
+              </div>
+            </div>
+            <div class="product-bottom ">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>HP Laptops</h3>
+              <h5>200.00$</h5>
+            </div>
+           </div>
+           <div class="col-md-3">
+            <div class="product-top">
+              <img  src="https://m.media-amazon.com/images/I/51mTk3KneGL._AC_SY200_.jpg">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-heart"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-shopping-cart"></i>
+               </button>
+              </div>
+            </div>
+            <div class="product-bottom ">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Buddha Statue</h3>
+              <h5>40.00$</h5>
+            </div>
+           </div>
+           <div class="col-md-3">
+            <div class="product-top">
+              <img  src="https://m.media-amazon.com/images/I/51JaJvviipL.__AC_SY200_.jpg">
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="">
+                <i class="fas fa-eye"></i>
+                </button>
+                <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-heart"></i>
+               </button>
+               <button type="button" class="btn btn-secondary" title="">
+                 <i class="fas fa-shopping-cart"></i>
+               </button>
+              </div>
+            </div>
+            <div class="product-bottom ">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Redux Watch</h3>
+              <h5>50.00$</h5>
+            </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="website-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 feature-box">
+            <img src="https://webstockreview.net/images/stamp-clipart-warranty-13.png">
+            <div class="feature-text">
+              <p>100% original items <b>are available at company</b></p>
+            </div>
+          </div>
+          <div class="col-md-3 feature-box">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAADpCAMAAABx2AnXAAAAflBMVEX///8AAAAMDAxwcHBcXFzq6uoVFRUQEBD29vYbGxuBgYEWFhbX19eZmZk9PT0GBgaMjIwhISHGxsZ4eHjz8/Pj4+MmJiajo6PR0dHAwMDJycmWlpasrKzk5ORra2tlZWU1NTWwsLBNTU1+fn6Hh4c4ODhTU1NISEgsLCxKSkpEmUYNAAAMMUlEQVR4nO1de5+yKhcFFcU0MZW8pllNNd//C75giddmzlPq4zkv64/5zUyELBZsbpstABISEhISEhISEhISEhISEhISEhISEhISEhISEhIS/07gAK8so0mAY9c/h/TzjGh49t14NdSCiwEZTvGnGcUnno9xCaYo1QS4QN0wDEU5Rp/lEx0VhWWkw8s05foU0dGEVU0rm48aEd6QSnloflpDE2ELSVUeQpzDJ/kcHPLMCG6nKttHcGticG9/ko+9Fxm5U5XtIwhiZPcZsR2RxBaBJPYLJLGlIIn9AklsCfA5VJcY3b4FOiD2F+f4QRSGuE8shm8h7hPDYRj9nVk+KvMvqA6IeXtL/2NYe29ATIVfeYmW51VeTcWC/ggx8ud6kRFiPrQU81ouTMvW2BoMGqPElD8npowSYw/QofaRQfpD4BISvgabnRhbmxFYLmZGkEseS8IFiEGDEHehnoZ8S3+UZwliEFqWvwgznDOjsSQxZkTyJVqjCs26PD1i8FNicJwYe2A+P69tw2tA7M6J7d4htuPE7q+IsUfOvgviWVarPPDKiGXKg4qiXFlfKOE74xhk4xW6iowyRuwKWzVkWd68vJCmtMrN+gSb41HnoaEOXUYzhe8oBlNGxYUPo2Q6PFdI2k9StHkNSKh0im1BVreghLqpWzt4YuUJNPIOMaKxeSE9wZ3FsuLygQxanRRKOCcv+k06DY39we1VzH8h2qEiacA3YFRkDhrPh0+IAYbdJk3I9wRnAy8R9ottPZZOKGZz8Yr57h3BuGS7qtxsvRBXbc7tCsapzyhZcBt0IN0MW2PMQXtPMF5urbWNjENT71OHt/lWMclIscm+mfF4mvImL77zrwnDh9yRJYIBk9mIXWC/HnlVWk5ImWqB5++Nt9rhMx9j73tMFExDxxrJZ85DmN3oGMXZmF9H9pH+xhDWgLBaI8cvk3Mc+xju5uJFW5OODqxqDWN+INcDilmtVKzxT004l12MXxHj1vgjsf5RRib8+Mj0BcK+CV4W1mwGf/OuLZ8GBtzMREx9Zxo4HRSoSmKSmCQmiUlikpgkJon9p4gRYyGQpYktpdPCxMjd3ywC/04WJaZrB7wIDpq+MLGlDuMWJmYtR8ySxN6GbIoTQjbFTyCb4oSQin0CqdiEkIp9AqnYhFibYgG1Kfr9MBwjluxHB7AVKYbtUKsd8rRt8jpd5DqPZLfUfkluNYrRTOOfG5Zp6lVqJx09YA3iAvJjZ5aML5Fz7wW1lSgWZFfuRlDvwBDDYto54bBNUt9k5B/ZEfYFuDuP19Q6FLNZCqW3RacYxBoUmt6g3knHvZpH70GuQrFyb/ZpVYroutptaOgGjd42F1HG/dvWsGyJ4Sv/FbPre4I6rohNufMRM7qGpogvhmg2pOvWoMO29/xWadIZjf/jqBvYKpoiKp5uBQa3dKTVi3ToN8mioyDDG6Rwl1OUr6EBXYNizHgcK8dFs3Id0mHLGVW/i/TYFdkQuCsKU/xpcD/TAbEVKMbd4yzuR1bEFCGaHZu2aO6E6xq16m1rAlWKMdXqbNm/B71sHYpxA7IzvuoL9dQRta0bWZ1E+PcQxa+MJS7q/mjCwR2dlSgGQGq2YjtshRug3rj0CmdO6/6sgYSYddG1fn5rUYxNlVpDViK8ygxSE0O13xIhWp3UqRunbvWzXY1iHTTEmqYoXOj0xlQIB0/T6LvXr0axDhp3OXNXlzgVJBovvbIh278RsUrF6FGkN5y6512hsBRi1LKFPYFFL48VKoYjYcdbrobBUQzOjW1H4txSufYM/qoUC9DBjrLzsTXyftd24nA3a3GgMDOBOJE1T705/qoUK7Tr95fSTDwschNTRXsviN3FF/BdEHN6VzJXpZgD+fJZzIJ38LspbbTf1cU8Nd8QY5v51QuXs4Zli4DT9ikgxtFtD207MRhfm/+KCxZ/ndiPTdHp+DBcO1P22BwnVs9Gjr3rECtrig0xAp20vVHzG7F7b4RerWL817vf9DHvRVP8Vyh2g9x2CGZEN3QxyRjvY9fVGI8fFdub/JKUYTULZUVMn6K9IHYTX8DOD8RWpFhcllnqFzdDpFcM49kaW+NYcwcnELeBzNtgHFuRYs/S2tm3uFphGI9FJUD3uqBkbOZhnXr5rkoxASqaGLMKjzaGxX6BDkUWtNkF0QZzxdUpxuGJJbQIVFeI7tRsyUXN7L5f9nUqxubyYqOGnB9abGsS4+ux/tbiWhQ7dPey8UkQU/LHN8Sq2mhiGZ3F4lPv38NciWKB5nb6SLAXW21G8fhG0PSneu2Fj/WEWRnZ81iFYheoq217XTZ9rFasmfBa96c8HhEiDqJArEOxeKcrup4K0ZJmAiL6GCMr9hXV6l+B1uwrDi4rrmLZYt90vgMP4Sa2KU3KoknfCt+Jjs1OsH/AmIpsCTQH55praIrB83OLl7s6UWpd6WzNbreNQYHOZdOMdWPHLWtoik0gAv1x2tK60UlIc/hlO3UDJUrntIU4qzxtSUyzG+qjjV17JzTUm8K2bgwYJOvnuQrF4t6xcodXZyM0GA21wMq90hPN2BqcLD9LpOvdMAHo1D47eyisKMX4GfRfV4wxu+pkqBozI/e+UaDfPXkV46XXwN9XjE2otnd+YtK+2sP/yIdX6alqwMYdhPU58iKo1ioU4+5GKV+WEPOBqkxFPOZTFZQ39tkjGfvlezQRWItiVYm99FsopqvZSzepIM7rSGtVHI9xrESxJwJqJ3Gc2L8tbTCN4jg6/OT+th7FJsa6FJsQUrFP8P+g2H+X2PWjtyz8cxyuCxDzG2Lmac5IbC3Qk9kQ839P/xbcZlJu9E9F5kJybJ45W4jurAnftNiLOrbNkZQJR9ZrkyBqiL1YZEwOVDTOuCac63UuQWt9qBhzRb/qIG554xpDp7+pcGqshwJvC0iGbu0nnn7/wptohxIz4Hm25wicW21kvkBi3OeptaA35wxR+UDYDjZH4Izhxtuxe9lD01kj7Qdpm5cx2yjGEXciOlowT2aLJY2TvBNDT7HmtFZB3gnkYcCv8+vrRp8AJeevzh4dGb1uMB3ie7sWITHg/ZRf0vdekPEK6SU/3XtbedZ95uGlNV98VKSlwxmgW52mMeM8sQa6DnYOiWL8+esxfoLR302Fin6dfdS0rbGQsPNCsawF3ixR/rBHPxMvfXjRYA6E0Bzdop8LZIGpwAOZ+TL67BwwzbmWKwN4t5d34KaGYsDbzDH826CF8uLIaFqwcVIpFtqEeCDIHNZGZlZNYS3eyZZ+8xMNTR4UfrbIwQY/qzGneLPvHyMoKwcNy5wBVnVbqfxrb+M9xJfr6eZMjtvpeokX2rl8BYyoPTl+iawgISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISHx/4ik5b2aAEAHTrpBx70V/0PnSXpx3RQAO3U9gMI0QwBvUw+A0E355SO0ZbnS7SUGIHZLzLJ1p3bnLltugxr7c3Dn6dC5UoYHcX3GgREqVUDPCaIgLFEWgm1GXRvYKOLhB8pbDNAlRjbjhdIShCF1p7ttFeeqC8qzX0TgjEASJo5/UQsVZ2peAi93y0OuqvhyUmlcFKxas6KIsQqy6q32UZGHOCmKEIN9qmXb4hnhCQvJzxEow4D9N8yCsKxqrWQNgBNLSiaQl/IPmYCHTaAGwJvMkRZveYDtMmX1Ci6cGLgCkEUg8m37G3gu+2zLnkxTEGgAnynll0SxVlYFCPj9W6RhwCraQQGrm20lPfZrj1ibJQ/9dBMD+3zZUFSwmswATtUQoDRgqcs8PZeYqYg2to9Bsp3M0coOw5g3xcCviGXgxIqSgOwcxyX2WO2iMMwAdUF0ZjVrxzzINj6eK19D23/+yGL+tXPAf+GE/TrKR8YIZilAOWKieCl6KsaqCJV5rF5QfGHVdEg5MTSpYgADdK2JsZ6QVYolIGFNDQFODIMgPzBiXLHNU7HcY23uAIKiUezEClsTAzR6NMngwsxDvOXELhHXX7VBmoCgyjKKztsgYhV1DRh/VmMXD4STWQ8c5vmWlydQQaS65xCEWhipBQ6LwufNBsSFusHI13gfy559rACxilTK+hjrXl7Vx74AVhEzEZ3cEx4gP9gWhccyL3wbUE3bYlxoWsabHOtj7DkaNyEa63Q070Vhk5CQkJgU/wNsgOxI13JKJgAAAABJRU5ErkJggg==">
+            <div class="feature-text">
+              <p>Return within 15 days of <b>receiving your order</b></p>
+            </div>
+          </div>
+          <div class="col-md-3 feature-box">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEX///8AAAD4+Ph3d3ckJCS7u7suLi40NDTg4ODU1NT19fXZ2dmnp6eRkZGBgYH8/PzExMTPz89VVVXs7OxJSUlnZ2dxcXGdnZ3m5uavr688PDyNjY3BwcGkpKQzMzNfX1+EhIQRERFDQ0McHBweHh5aWlqXl5e2trZra2sVFRVHR0e6lcPoAAAHjElEQVR4nO2d6ZqiOhBAFddBBRRxbwF7s/v9H3CEtJWQBEhYha/On7nDhJjDkqVIcgcDBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEGQzmMbTWC3pefu/dO4CU7+m9uG4H7YIOGyecFdk4IPgqYFG72DMcdmBd3GBYc/ZqOGb80bNnwTty0Y7ho1PLVguG1S0Ji2YHglv73cjRQJumY4I7+t0Ux9ddNwpHHKuveG48Jd2q4YFq9/O2M4/O694fDQZUNr8S+NxfmZaNNlw31GCe13lVRdNhxMINmiu4ZvmWXcPJNNizQZr2GYPe5fQDqrs4Y5wyma8NJVw5y2zqSn6geyXsNwklNKOkzXbzJewzDv4bOvkDS7UnpZQyevmA49WbfJ6IjhwKcnazYZr2GYP/qb07M1m4yE4f0ySXLxHkfZg8elRZPvJzxx7NXnc5lMZqUNB8zv5t/xVEMxVrB6HOWPOc/yim9EfKUD8Ve4gF4RQ5s5XyvemjBcCf98lhgO7E+S/J/wL4uUp6gCw8GRnu8rJAeKGA7saQuGgxvNQOfrTiHDv+6+aDiv03DN5DBXOYEgGtpzysF6Gjqk5pmTqtoYg6HLJJ9fwNBgD8+Zyy81FK+VjDvNYVrGkKmXCXG65124kqvnQbnOfHJiuBAOlzdkPyIFlRvCGO0U/zWAcq2aM0z8lnKToW1Ievdf1Roq9sTsD5qH8ic6fcN1e4ZMQEO9ydA3jEtjVW1oG6bpuu7h8KiXFlHkbR3h8JXshslF8SukvmFcm36CYSU1TRiGKUk5xUS2b2uVTrhoePC9J77EMO7ZkVqNtBZMaPONGhpszDPXMJ0TV17unKm1zBv1Z7b45g8Y+h/RfJjrJ3k09tSQxaGGCUoY8s+iKabwvzMlMw3dEAwfr8kDgxw/DJsz5LtUS1maIONxVTVkWYRNGlqk0gE+pKnSY1kFDO1nH0wwXBc0ZPuJaz6xImKfWsWQeQ8TbBnD+cUBvqihyRx2+NLwhonrVzTokBaikrQW4fTJWPh9gssYVtFasG/RpaBgaihVr+cdeuQjHgkpVNbiU0NXvGDKpPRUtVv8uDplxodVGEZVtXuYT1afBcSAlLCytmHcPpHmojLD39N1/FPACQge3b2DUZEh36eppF9altSKtIjhqPeGO86wkp53WWq9h855RfmK5gHGhm7iMDe/67UNPc4wiTeUxtq4Nv+1DeMPeOZ7jw1n9KwOGn4pGJK/3l/LMGtyZsLwbD+GgMKI3I5Ghkyc5jFUNA7h47/WZNDIYEdRAcvmDxuTZI6VG063hJtE9TW+H1bGqPeGkjcEDWsBDYvTf8NwJHwg6Jnhg+vR6LnhkIss9dHwvfeGs94bbntv6LVveK3XkGsU21h/eKvXkBtgtLiGtC5D7gtGiTB6Yfb1GnJzwoQhfQO49Rp+C5/z+sal94br3hvOe29o9t7QQMPO03vDvTi9pVecokBN24WoEzL/q+1S1Mjf5K9Sczpem2cs0XVGbQwLG4CJltqHycoL2y5Q5QjxYNM5vln+5jabzsY5515hnltFeMscvgpkmjUlPvHYznxrtdskzo0Wskom6BZGYb2E8K024uYF5/tvWq4ZhuwF2y3IVDr3yIapzEp3PlOaaO8Lp53/FjwdUnaZSzdkyj5m31ZmxpNVpeGviqAw1XTLTLA077J80w1ptGaTnDLNfIE3KzSM5xEucuCDZNwnbNl7mmpoh88kwqIwurBxX6FhtKQn0DzH44smySDVkE7MFRf2wdNwq84wWkWhO6H7Q1zoRCuc8O/PVEO4GpJvqFTrYH8La5iLEc3E0Y20SdaN0mk6A5uQJjiATW5kOxXBtLsC225kYA0VCOlmCrI8oInLXRr2TCit4uARDsopcZhzBVwI50r3+oI2I29jDXgQpYv5oZ2XTMepHWj1pQ0ovMt5u2VANtLdjGAl/L10efWB1kr6isAdDnKygUshvVCwFdVnydIWAZY5SZd7w8OX93jBpZDO8YN72Oy2owSoLqVv2iKz4AxGpkP2W1oz8AJJNxnI9md5JpRupgUPSoktNgsDj5d0V1docXJHKtDFlS0bh+5hte2hGiasNJGs3bZhwJq7xwJ0YiWVCVRDYSvbqcMIKhD/DZ6ucW429DOpeJ9OGfYN8A1FE/otLtzfrHnef9CRGH+/lTdVqwkaVxC63jQsobCen24X9p58FZn+ccrKqbqhq1GuideEmXqusrc0O5xmOjbsIFR7G7GKYIZsIbPa12FKrLStBn3cI8f4UbUnHnPso57yK8CuHZuS5ffmkY1FKfYmk5G14fXGLQjU236qSgxuH60TH81WrOMN+SpwuK31WmSSMyFGeSPszHza6JJSMgMeGvXDOkzNpY1xE8sktWR6D5c7S8mljQ5pkn9p75BmT9KW73TfXiVDcTeykp009vz6Q4jCvsINJKyFD4LvxTYxd+7sF6bbvtn/Y0omF/+dlizcFO9Fmutg5J2mm7u1LLgNem2Yznnk3U7+KLiUHujYLfVCFciI+yIIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgnSS/1jWliGEixjkAAAAAElFTkSuQmCC">
+            <div class="feature-text">
+              <p>Get free delivery for <b>every order</b></p>
+            </div>
+          </div>
+          <div class="col-md-3 feature-box">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX19fUAAAD8/Pz////r6+t4eHjc3NzV1dVwcHD4+Pji4uI7OzvHx8dWVlYgICD09PQUFBQnJyepqamWlpaMjIyBgYEtLS1cXFxRUVGtra1hYWFAQECYmJiioqJoaGjX19dISEgODg6+vr51dXUaGhp/f3/Jycm1tbU1NTW0XCWiAAAEd0lEQVR4nO3ciXaiMBQGYJKLSlAJVtzFtS7v/4QTUKebOkxISdL+35mZVk49k7/E5BohQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwCwlXGcrHRRg7SnIDIak9GjNXJVGvdkYxsp3iHyYhrxNPyKntBP+UtmucRckntttfQRLqJ+S57dZXstLvp3Jgu/HVrHX7qdjZbnpFme5J5K6Pozcb0k04t930iga655D6tpteUaIZEAndgYRI6D4kREL3ISESug8JkdB9+gk3tptelW5C0en54RhIzZUa2x9LVKZ7Dr0hyz86OCfuhUDqJeTZKvJCS7ebkvsfWlykmgF/w3yIhK5AwscJf37VFrc9oV3UCF8KN92yNNAuhhrnSzubZ7vcrEw74HDf8sJB9/2TT3Wp3gvxF8z4SOgKJHyc0Je6dFuWXxpE3Fl3fLCuUbbZLjgrQtn2u9nuf5UEuuulQegLobvk7U9dqlt5//wZHwldgYRI6D4kREL3fU/CZPBJkjaW6EtbzCfszmL51XrYZKx3zCfcB1wEX1dhBcXdRpPdGE84eXhnqgi3jUa7Mp7wyZsVPms224XphPOHH4So4KGN8cZ0wiV/8n6TLxpOVzCdMH+WkOreOTzeLBaX2+M3Y3YuRq5kOn0tD3QXDzqI+YRPlkxqJ1zFROvimyFlLAjVV0Ekz+pARPRgOjKdMHu2TNyuv/Kx4CoX28qQTWmncnWmk1OijsQhPzWT8NuFgfpnSS2WqdO4o+udrBntZef+E7xL2KEBS2WbsZPq8zPeKV+FqYoXB/ef4F3Ck/qPl7RirC0GLAlJHtTBXKVd0/0nmE4YzV5uZkv1eKUez4oBJldHTgZmiyUdijPGXmWsHqUzodImvMdUj73/aZjxsfTdhcNh2SDO1QtGvX7UATJw//eBsmUxJvfpsiHAjF7YicswDESrmYRvNY0ofslDXlxOXCRU5aqJhBM6SXXG1NgyZEWXONFoTOs8z3d0fxuLZhMa2CtkQIJv2GWg4Z2XHsWsV/bP20n97oQvb72UPvZSMtNL2bFdnqtdJ2HDWMY5G8flgXF8f0I0nXA6etO6Ps6KX/G+OGJjQyLvZov/5nnCKJomrUk3itJpP7tfE5pOuE3fuT5+3apvbgfMyljWn7PWebSYs8P9H2lsLI3VWGp836Xxio32k9dRf7Q6d1d2Ei5NzxYfRNnhPGyleTQ/sH1iJ+GH+dD83llb9Tfdll+2D37EdMLhs4TiJ6xiLN72LPqaMG402pXx2eL4d7n0c0JZ1jaNM55wLG8Lpp8T0rHJYH+Zn/HPbbqsRvFyLCUhrnWppe3PvqOmiXaXhaci0qG4OnCvRrrc1tWanldtFSQ//0p23Wsv+YMiyTnaO9Lxpe2mV9TX3VVQPFiAdU6ufVuQ8ORS9lD7Km9uZwL/X/qnMJDkwyuxxha0gReDzarmxh90tHN5RVXJrPbGJkIcs0nXTdPDzsiu7IKTq0zEAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDNH+8rtmYyAxEIAAAAAElFTkSuQmCC">
+            <div class="feature-text">
+              <p>Pay online through <b>multiple options</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>Useful Links</h1>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>Return Policy</p>
+            <p>Discount Coupons</p>
+          </div>
+          <div class="col-md-3">
+            <h1>Company</h1>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Carrier</p>
+            <p>Affiliate</p>
+          </div>
+          <div class="col-md-3">
+            <h1>Follow Us On</h1>
+            <p><i class="fab fa-facebook"></i>Facebook</p>
+            <p><i class="fab fa-youtube"></i>You Tube</p>
+            <p><i class="fab fa-twitter-square"></i>Twitter</p>
+            <p><i class="fab fa-linkedin"></i>LinkedIn</p>
+          </div>
+          <div class="col-md-3 footer-image">
+            <h1>Download App</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMMOPQuwJaIR2o0yBsKzcHYQQTMJ5KvQkKkg&usqp=CAU">
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2020 Dibyajyoti Ganguly.</p>
+      </div>
+    </section>
+
+    <script>
+      function openmenu(){
+        document.getElementById("side-menu").style.display="block";
+        document.getElementById("menu-btn").style.display="none";
+        document.getElementById("close-btn").style.display="block";
+      }
+      function closemenu(){
+        document.getElementById("side-menu").style.display="none";
+        document.getElementById("menu-btn").style.display="block";
+        document.getElementById("close-btn").style.display="none";
+      }
+      
+    </script>
+
+  </body>
+</html>
